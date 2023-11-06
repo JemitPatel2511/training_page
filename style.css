@@ -1,0 +1,456 @@
+body {
+  color: white;
+  height: 100%;
+  width: auto;
+  background-color: #1d0a68;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Poppins";
+}
+.sideImg{
+  background: #5dd3e1;
+  border-radius: 100%;
+}
+.Largecrl{
+  width:330px;
+  float: right;
+  height:330px;
+  border:1px dashed #CCC;
+  position:absolute;
+
+  margin:auto;
+  border-radius:50%; 
+}
+
+.circle{
+  width:10px;
+  height:10px;
+  background:cyan;
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: circle 4s linear infinite;
+}
+#circle1{
+  animation: circle 5s linear infinite;
+}
+#circle2{
+  animation: circle 6s linear infinite;
+}
+#circle3{
+  animation: circle 7s linear infinite;
+}
+#circle4{
+  animation: circle 4.5s linear infinite;
+}
+
+
+@keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(-165px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+              translate(-165px)
+              rotate(-360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1d0a68;
+}
+.navbar-collapse {
+  margin-right: 100px;
+}
+.nav-link {
+  font-family: "Poppins";
+  color: #ffffff !important;
+}
+.navbar-toggler {
+  color: white !important;
+  outline: none;
+  display: block;
+  float: right;
+}
+.navbar-nav li {
+  margin-right: 20px;
+}
+
+@media (max-width: 96%) {
+  .mobile-nav-toggle {
+    display: block;
+    float: right;
+  }
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+.navbar-brand {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: justify;
+  color: #ffffff !important;
+}
+.enquirebtn {
+  /* Enquire Now */
+  border: 2px solid #ffffff;
+  background-color: #1d0a68;
+  border-radius: 10px;
+  font-style: normal;
+  color: #ffffff;
+  height: 0% !important;
+}
+
+/*----------------------- banner------------------ */
+#banner {
+  /* width: 100%; */
+  padding-top: 10%;
+  color: white;
+  background: url("Images/Ellipse\ 7.png") right top no-repeat,
+  url("Images/Ellipse\ 7.png") right top no-repeat,
+   url("Images/Ellipse\ 10.png") left bottom no-repeat
+}
+.title {
+  font-size: 70px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.pera {
+  color: #fff;
+  font-family: "Poppins";
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.girlImg{
+  position: absolute;
+  top: 45%;
+  left: 65%;
+}
+/* --------------------------mailbox------------- */
+
+.buttonIn {
+  position: relative;
+  width: 370px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.button {
+  position: absolute;
+  border-radius: 5px;
+  right: -10px;
+  font-family: Poppins;
+  font-size: 20px;
+  z-index: 2;
+  border: none;
+  top: 32px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  background-color: #53bece;
+  transform: translateX(2px);
+}
+input {
+  margin: 22px;
+  padding: 27px;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border-radius: 5px;
+}
+.circleImg {
+  /* position: relative; */
+  border-radius: 1000%;
+  padding-left: 50%;
+  background: #d9d9d9;
+}
+.logos {
+  margin-top: 10%;
+}
+.logo-img{
+  text-align: center;
+  padding: 2%;
+}
+.logo-row{
+  border-radius: 12px;
+}
+
+/* -------------------about section-------------------- */
+#about {
+  
+  background: url("Images/Ellipse\ 14.png") right top no-repeat;
+  background-size: contain;
+  background-color: #12034e;
+  
+}
+.aboutImage {
+  width: 83%;
+}
+.aboutpera {
+  margin-top: 25%;
+}
+
+/*-------------------- why choose us?------------ */
+.services .icon-box {
+  margin-top: 10%;
+  color: black;
+  padding: 24px 14px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 4px 8px 4px #3f9ba6;
+}
+.services .icon-box h4 {
+  font-size: 90%;
+  font-weight: 900;
+  text-align: center;
+}
+.services .icon-box p {
+  margin-top: 13%;
+  font-size: small;
+  text-align: justify;
+}
+.services {
+  margin-bottom: 10%;
+}
+
+/* -------------------------------------caursessection---------------- */
+.caurseBox {
+  /* border: 2px solid rgb(232, 84, 84); */
+  margin-bottom: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  color: black;
+  background-color: #e8fbfd;
+}
+#caurses {
+  background-color: #12034e;
+}
+.caurseBox h4 {
+  color: #3f9ba6;
+  font-weight: 900;
+}
+.caurseBox p img {
+  width: 20px;
+}
+/* .hiddencaurseBox {
+  display: none;
+  visibility: hidden; 
+ display: block;
+  visibility: visible;
+} */
+.caurseBox p:nth-child(3) {
+  color: #12034e;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* ------------Why choose--------- */
+#whyChoose {
+  width: 100%;
+  margin: 20px;
+}
+
+.whyChooseH1 {
+  text-shadow: -2px -2px #c3bcbc;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.whyChoose img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.whyChoose h5 {
+  text-align: center;
+}
+.whyChoosebox {
+  margin: 25px;
+}
+.whyChoosebox p {
+  text-align: -webkit-center;
+}
+
+/* --------------------------------testimonials------------------------ */
+#Testimonials {
+  background-color: #1d0a68;
+}
+.testimonialsBox {
+  padding: 30px 21px;
+  border: 2px solid black;
+  background-image: linear-gradient(#705BBF,#5035BC);
+  width: 50%;
+  margin: 25px;
+  border-radius: 35px;
+}
+.testimonialsBox p {
+  margin-bottom: 0rem;
+  float: right;
+}
+
+/* --------------------------form/--------------------------------------- */
+.formBox {
+  padding: 20px;
+}
+.formBox h4 {
+  color: #3f9ba6;
+  text-align: center;
+  margin-bottom: 45px;
+  font-weight: 900;
+}
+.questionBox {
+  margin: 30px;
+}
+.collapsed {
+  border-radius: 10px !important;
+}
+.formInput {
+  margin: 0px !important;
+}
+.txtarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.selection{
+  border: 2px solid #ccc;
+  font-size: 16px;
+ width: 100%;
+margin-top: 6px;
+padding: 10px;
+border-radius:4px;
+}
+.submit {
+  width: 70% !important;
+}
+.btn-lg {
+  width: 35%;
+}
+/* ---faq--- */
+.faq{
+  background: white;
+    color: black;
+    border-radius: 5px;
+    margin: 26px;
+    border: 2px solid white
+}
+.question
+{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.question img{
+  margin-right:15px;
+}
+.question h3
+{
+  font-size: 14px;
+}
+
+.answer
+{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.answer p
+{
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.faq.active .answer
+{
+  max-height: 300px;
+}
+
+/* -------------------------last logos------------- */
+.lastlogos {
+  background-image: linear-gradient(#12034e, #2f85e7);
+  width: 85%;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* position: absolute; */
+}
+.lastSection {
+  padding: 30px;
+  padding-top: 50px;
+}
+/* .linkTable tr{
+  padding: 10px;
+} */
+td {
+  padding: 10px;
+}
+.buttonLast {
+  position: relative;
+  width: 330px;
+  height: 73px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.btnLast {
+  position: absolute;
+  border: 2px solid #2f85e7 !important;
+  text-align: center;
+  color: black !important;
+  border-radius: 5px;
+  right: -10px;
+  font-size: 10px !important;
+  z-index: 2;
+  border: none;
+  top: 30px;
+  height: 30px;
+  cursor: pointer;
+  transform: translateX(2px);
+}
+.Social_btn button {
+  background-color: #12034e;
+  border: 2px solid #5dd3e1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.Social_btn{
+  padding: 30px;
+}
